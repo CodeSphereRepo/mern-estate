@@ -6,10 +6,12 @@ import Signin from './pages/Signin.js';
 import About from './pages/About.js';
 import Profile from './pages/Profile.js';
 import Search from './pages/Search.js';
+import Header from './componant/Header.js';
 
 function App() {
   return (
     <BrowserRouter>
+    <Header/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/signup' element={<Signup />} />
